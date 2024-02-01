@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/groupStyledeep_purple_A400"
+    tools:context="com.proz.loginapp.loginapp.Treino">
+    <TextView
+        android:id="@+id/txtLanguage"
+        style="@style/txtRubikMonoOneregular30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@dimen/_17pxh"
+        android:layout_marginTop="@dimen/_39pxv"
+        android:layout_marginEnd="@dimen/_17pxh"
+        android:text="Não encontrado"
+        android:gravity="center_horizontal"
+        tools:text="Não encontrado" />
+
+    <ImageView
+        android:id="@+id/imageWhatsAppImage"
+        android:layout_width="@dimen/_341pxh"
+        android:layout_height="@dimen/_425pxh"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@dimen/_11pxh"
+        android:layout_marginTop="@dimen/_41pxv"
+        android:layout_marginEnd="@dimen/_8pxh"
+        tools:cornerRadius="@{@dimen/_10pxh}"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_whatsappimage_421x341"
+        tools:ignore="ContentDescription" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:ellipsize="end" android:gravity="center"
+        android:id="@+id/btnVoltar"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_20pxv"
+        android:layout_marginEnd="@dimen/_11pxh"
+        android:layout_marginStart="@dimen/_11pxh"
+        android:layout_marginTop="@dimen/_50pxv"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/_12pxv"
+        android:paddingEnd="@dimen/_30pxh"
+        android:paddingStart="@dimen/_30pxh"
+        android:paddingTop="@dimen/_12pxv" android:singleLine="true"
+        android:text="@string/lbl_voltar"
+        android:textAllCaps="false" style="@style/btnSolidRounded_1" tools:text="@string/lbl_voltar"/>
+
+
+
+</LinearLayout>

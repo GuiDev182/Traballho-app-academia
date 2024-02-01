@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.proz.loginapp.loginapp.PrincipalActivity"
+    android:background="@color/deep_purple_A400"
+    style="@style/groupStyledeep_purple_A400">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtLanguage"
+                style="@style/txtRubikMonoOneregular30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/_17pxh"
+                android:layout_marginTop="@dimen/_39pxv"
+                android:layout_marginEnd="@dimen/_17pxh"
+                android:text="@string/msg_fichas_de_tre"
+                android:gravity="center_horizontal"
+                tools:text="@string/msg_fichas_de_tre" />
+
+            <LinearLayout
+                android:id="@+id/kratos"
+                style="@style/groupStyledeep_orange_A400cornerRadius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_17pxh"
+                android:layout_marginTop="@dimen/_32pxv"
+                android:layout_marginEnd="@dimen/_17pxh"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageImageOne"
+                    android:layout_width="@dimen/_137pxh"
+                    android:layout_height="@dimen/_88pxh"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/_95pxh"
+                    android:layout_marginTop="@dimen/_15pxv"
+                    android:layout_marginEnd="@dimen/_94pxh"
+                    android:scaleType="fitXY"
+                    tools:ignore="ContentDescription"
+                    android:src="@drawable/img_image1" />
+
+                <TextView
+                    android:id="@+id/txtLanguageOne"
+                    style="@style/txtRubikMonoOneregular25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/_95pxh"
+                    android:layout_marginTop="@dimen/_15pxv"
+                    android:layout_marginEnd="@dimen/_95pxh"
+                    android:layout_marginBottom="@dimen/_13pxv"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/lbl_kratos"
+                    tools:text="@string/lbl_kratos" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/naruto"
+                style="@style/groupStyledeep_orange_A400cornerRadius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_17pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_17pxh"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageNaruto1381"
+                    android:layout_width="@dimen/_192pxh"
+                    android:layout_height="@dimen/_82pxh"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/_61pxh"
+                    android:layout_marginTop="@dimen/_23pxv"
+                    android:layout_marginEnd="@dimen/_61pxh"
+                    android:scaleType="fitXY"
+                    tools:ignore="ContentDescription"
+                    android:src="@drawable/img_naruto1381" />
+
+                <TextView
+                    android:id="@+id/txtNaruto"
+                    style="@style/txtRubikMonoOneregular25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/_61pxh"
+                    android:layout_marginTop="@dimen/_13pxv"
+                    android:layout_marginEnd="@dimen/_61pxh"
+                    android:layout_marginBottom="@dimen/_13pxv"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/lbl_naruto"
+                    tools:text="@string/lbl_naruto" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/goku"
+                style="@style/groupStyledeep_orange_A400cornerRadius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_17pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_17pxh"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageGoku"
+                    android:layout_width="@dimen/_192pxh"
+                    android:layout_height="@dimen/_82pxh"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/_61pxh"
+                    android:layout_marginTop="@dimen/_23pxv"
+                    android:layout_marginEnd="@dimen/_61pxh"
+                    android:scaleType="fitXY"
+                    tools:ignore="ContentDescription"
+                    android:src="@drawable/img_klipartz1" />
+
+                <TextView
+                    android:id="@+id/txtGoku"
+                    style="@style/txtRubikMonoOneregular25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/_61pxh"
+                    android:layout_marginTop="@dimen/_13pxv"
+                    android:layout_marginEnd="@dimen/_61pxh"
+                    android:layout_marginBottom="@dimen/_13pxv"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/lbl_goku"
+                    tools:text="@string/lbl_goku" />
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/livre"-->
+<!--                style="@style/groupStyledeep_orange_A400cornerRadius"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="@dimen/_17pxh"-->
+<!--                android:layout_marginTop="@dimen/_10pxv"-->
+<!--                android:layout_marginEnd="@dimen/_17pxh"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageLivre"-->
+<!--                    android:layout_width="@dimen/_192pxh"-->
+<!--                    android:layout_height="@dimen/_82pxh"-->
+<!--                    android:layout_gravity="center_horizontal"-->
+<!--                    android:layout_marginStart="@dimen/_61pxh"-->
+<!--                    android:layout_marginTop="@dimen/_23pxv"-->
+<!--                    android:layout_marginEnd="@dimen/_61pxh"-->
+<!--                    android:scaleType="fitXY"-->
+<!--                    tools:ignore="ContentDescription"-->
+<!--                    android:src="@drawable/img_626383224ec0a33" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/txtLivre"-->
+<!--                    style="@style/txtRubikMonoOneregular25"-->
+<!--                    android:layout_width="317dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center_horizontal"-->
+<!--                    android:layout_marginStart="@dimen/_61pxh"-->
+<!--                    android:layout_marginTop="@dimen/_13pxv"-->
+<!--                    android:layout_marginEnd="@dimen/_61pxh"-->
+<!--                    android:layout_marginBottom="@dimen/_13pxv"-->
+<!--                    android:ellipsize="end"-->
+<!--                    android:singleLine="true"-->
+<!--                    android:text="@string/lbl_treino_livre"-->
+<!--                    tools:text="@string/lbl_treino_livre" />-->
+<!--            </LinearLayout>-->
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

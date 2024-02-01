@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">Hero</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="lbl_kratos">Kratos </string>
+    <string name="lbl_naruto">naruto</string>
+    <string name="lbl_ganho_de_massa">ganho de massa</string>
+    <string name="lbl_digite_o_login">Digite o login</string>
+    <string name="lbl_seja_um_heroi">SEJA UM HEROI </string>
+    <string name="msg_n_o_tem_cadastr2">Não tem cadastro ? </string>
+    <string name="lbl_objetivos">Objetivos</string>
+    <string name="lbl_criar_conta">Criar conta</string>
+    <string name="lbl_imc">IMC:</string>
+    <string name="lbl_altura">ALTURA</string>
+    <string name="lbl_my_hero">MY HERO</string>
+    <string name="lbl_voltar">Voltar</string>
+    <string name="lbl_objetivos2">objetivos:</string>
+    <string name="lbl_login">Login </string>
+    <string name="lbl_definicao">definicao</string>
+    <string name="lbl_nome">Nome:</string>
+    <string name="lbl_digite_a_senha">Digite a senha</string>
+    <string name="lbl_idade">idade:</string>
+    <string name="msg_esqueceu_a_senh">Esqueceu a senha?</string>
+    <string name="lbl_emagrecimento">emagrecimento</string>
+    <string name="lbl_academia">Academia</string>
+    <string name="msg_fichas_de_tre"> Fichas
+de
+Treino </string>
+    <string name="msg_n_o_tem_cadastr">Não tem cadastro ? Criar conta</string>
+    <string name="lbl_goku">goku</string>
+    <string name="lbl_peso">peso:</string>
+    <string name="lbl_objetivo">OBJETIVO:</string>
+    <string name="lbl_treino_livre">Treino livre</string>
+    <string name="lbl">%</string>
+    <string name="lbl_confirmar">Confirmar</string>
+</resources>

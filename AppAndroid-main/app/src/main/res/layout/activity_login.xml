@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.proz.loginapp.loginapp.LoginActivity">
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearTelaLogin"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        style="@style/groupStyledeep_purple_A400">
+        <ImageView android:id="@+id/image5c1dd20b6f5c9ae"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_181pxh"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_11pxv"
+            android:layout_width="@dimen/_247pxh"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription"
+            android:src="@drawable/img_5c1dd20b6f5c9ae"/>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtMYHERO"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_8pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:hint="@{telaLoginVM.telaLoginModel.txtMYHERO}"
+            style="@style/txtAlfaSlabOneregular50"
+            android:text="@string/lbl_my_hero"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtAcademia"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_9pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:hint="@string/lbl_academia"
+            tools:text="@{telaLoginVM.telaLoginModel.txtAcademia}"
+            style="@style/txtJuliusSansOneregular20"
+            android:textColorHint="#F6F4F4"
+            />
+
+        <EditText
+            android:id="@+id/etInputLogin"
+            style="@style/etRoundedOutline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_32pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:background="@drawable/rectangle_border_white_a700_radius_8"
+            android:ellipsize="end"
+            android:hint="@string/lbl_digite_o_login"
+            android:inputType="text"
+            android:paddingStart="@dimen/_17pxh"
+            android:paddingTop="@dimen/_15pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingBottom="@dimen/_13pxv"
+            android:singleLine="true"
+            android:textColorHint="@color/white_A700_7f"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:background="@drawable/rectangle_border_white_a700_radius_8"
+            android:ellipsize="end"
+            android:hint="@string/lbl_digite_a_senha"
+            android:id="@+id/etInputSenha" android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_13pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_17pxh"
+            android:paddingTop="@dimen/_15pxv" android:singleLine="true"
+            android:textColorHint="@color/white_A700_7f"
+            style="@style/etRoundedOutline" tools:ignore="Autofill"/>
+
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearBtnLogin"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_22pxv"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylecornerRadius">
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnLogin"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_12pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_12pxv"
+                android:singleLine="true"
+                tools:text="@string/lbl_login"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded" android:text="@string/lbl_login"/>
+        </LinearLayout>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtCriarconta"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_105pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            tools:text="@{telaLoginVM.telaLoginModel.txtCriarconta}"
+            style="@style/txtPoppinsregular13" android:text="@string/msg_n_o_tem_cadastr"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
